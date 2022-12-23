@@ -1,0 +1,499 @@
+* { padding: 0; margin: 0;}
+
+body{
+
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#container{
+
+    display: flex;
+    width: 100%;
+}
+
+.header{
+
+    display: flex;
+    width: 100%;
+   
+}
+
+.header header{
+
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    flex-direction: column;
+}
+
+.subtitle_header{
+
+    display: flex;
+}
+
+.header p{
+
+    position: relative;
+    bottom: 25px;
+    left: 828px;
+    padding-right: 35px;
+    font-size: 18px;
+}
+
+.header a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.header a:hover{
+
+    color: green;
+}
+
+
+.img_header{
+
+    position: relative;
+    left: 90px;
+    top: 14px;
+
+
+}
+
+#sub_p p{
+
+    color: white;
+}
+
+#sub_p a{
+
+    color:white;
+}
+
+
+.premium{
+
+    background-color: rgb(27, 106, 209);
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    width: 100%;
+    height: 370px;
+    white-space: nowrap;
+
+}
+
+.premium h1{
+
+    position: relative;
+    top: 70px;
+    left: 100px;
+    font-size: 45px;
+    
+}
+
+.premium p{
+
+    
+    position: relative;
+    top: 150px;
+    right: 300px;
+    font-size: 25px;
+    
+}
+
+.premium_button{
+
+    height: 1%;
+    padding: 8px;
+    border-radius: 12px;
+    position: relative;
+    top: 220px;
+    right: 1350px;
+    
+}
+
+.premium_button button{
+
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    color: white;
+    background-color: black;
+
+    margin: 0 auto;
+    display: block;
+
+    cursor: pointer;
+}
+
+.premium_button_2{
+
+    height: 1%;
+    padding: 8px;
+    border-radius: 12px;
+    position: relative;
+    top: 220px;
+    right: 1350px;
+}
+
+.premium_button_2 button{
+
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border-color: white;
+
+    color: black;
+
+    margin: 0 auto;
+    display: block;
+
+    cursor: pointer;
+}
+
+.premium #sub_p p{
+
+    position: relative;
+    top: 300px;
+    right: 1640px;
+    font-size: 11px;
+}
+
+
+.features{
+
+    background-color: white;
+    color: black;
+    display: flex;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    width: 100%;
+    height: 635px;
+
+}
+
+.features h1{
+
+    position: relative;
+    left: 490px;
+    top: 80px;
+    font-size: 45px;
+    white-space: nowrap;
+
+}
+
+.features #i1{
+
+    position: relative;
+    top: 380px;
+    left: -260px;
+    font-size: 25px;
+}
+
+.features #i2{
+
+    position: relative;
+    top: 380px;
+    left: -200px;
+    font-size: 25px;
+}
+
+.features #i3{
+
+    position: relative;
+    top: 380px;
+    left: -190px;
+    font-size: 25px;
+}
+
+.features #i4{
+
+    position: relative;
+    top: 380px;
+    left: -180px;
+    font-size: 25px;
+}
+
+.features #p1{
+
+    position: relative;
+    top: 400px;
+    right: 250px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.imagem{
+
+    position: relative;
+    top: 200px;
+    right: 1300px;
+}
+
+.plano{
+
+    background-color: beige;
+    color: black;
+    display: flex;
+    position: absolute;
+    top: 1085px;
+    left: 0px;
+    width: 100%;
+    height: 1000px;
+}
+
+.plano_title{
+
+    background-color: green;
+    position: relative;
+    width: 40%;
+    height: 4%;
+}
+
+.plano_title h1{
+
+    text-align: center;
+}
+
+.card_1{
+
+    background-color: white;
+    border: 1px solid black;
+    width: 18%;
+    height: 60%;
+    padding: 8px;
+    margin-right: 9px;
+    border-radius: 12px;
+    position: relative;
+    top: 250px;
+    left: 120px;
+}
+
+.card_2{
+
+    background-color: white;
+    border: 1px solid black;
+    width: 18%;
+    height: 60%;
+    padding: 8px;
+    margin-right: 9px;
+    border-radius: 12px;
+    position: relative;
+    top: 250px;
+    left: 120px;
+}
+
+.card_3{
+
+    background-color: white;
+    border: 1px solid black;
+    width: 18%;
+    height: 60%;
+    padding: 8px;
+    margin-right: 9px;
+    border-radius: 12px;
+    position: relative;
+    top: 250px;
+    left: 120px;
+}
+
+.card_4{
+
+    background-color: white;
+    border: 1px solid black;
+    width: 18%;
+    height: 60%;
+    padding: 8px;
+    border-radius: 12px;
+    position: relative;
+    top: 250px;
+    left: 120px;
+}
+
+.name{
+
+    font-size: 24px;
+    color: black;
+
+}
+
+.card p{
+
+    font-size: 14px;
+
+}
+
+.card button{
+
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    color: white;
+    background-color: black;
+
+    margin: 0 auto;
+    display: block;
+
+    cursor: pointer;
+}
+
+.card_detail{
+
+    padding: 16px 8px 8px 8px;
+}
+
+.credito{
+
+    background-color: black;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 2085px;
+    left: 0px;
+    width: 100%;
+    height: 528px;
+}
+
+.img_credito{
+   
+    height: 20%;
+    position: relative;
+    top: 80px;
+    left: 90px;
+
+}
+
+.empresa_li{
+
+    height: 30%;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+#li_titulo{
+
+    font: 18px;
+    list-style: none;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.empresa_li li{
+
+    font-size: 18px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.credito a{
+
+    color: white;
+    text-decoration: none;
+}
+
+.credito a:hover{
+
+    color: green;
+}
+
+.comunidade_li{
+
+    height: 30%;
+    position: relative;
+    top: 100px;
+    left: 240px;
+}
+
+.comunidade_li li{
+
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 12px;
+
+}
+
+.link_li{
+
+    height: 30%;
+    position: relative;
+    top: 100px;
+    left: 330px;
+}
+
+.link_li li{
+
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.insta{
+
+    position: relative;
+    height: 30%;
+    top: 100px;
+    left: 470px;
+}
+
+.twt{
+
+    position: relative;
+    height: 30%;
+    top: 103px;
+    left: 470px;
+}
+
+.face{
+
+    position: relative;
+    height: 30%;
+    top: 103px;
+    left: 475px;
+}
+
+.credito_sub{
+
+    display: flex;
+    height: 5%;
+    position: relative;
+    top: 450px;
+    right: 670px;
+}
+
+.credito_sub span{
+
+    padding-right: 20px;
+    color: gray;
+    font-size: 13px;
+}
+
+.credito_sub a{
+
+    text-decoration: none;
+}
+
+.credito_sub span:hover{
+
+    color: green;
+}
+
